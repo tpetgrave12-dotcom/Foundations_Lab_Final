@@ -1,0 +1,40 @@
+# Foundations Lab Final: The Professional Identity & Workbench
+
+**Author:** Trey Petgrave
+**Date:** February 24, 2026  
+**Course:** Cybersecurity Foundations  
+
+---
+
+## Security Foundations: Governance & Frameworks
+
+### CIA Triad
+The **CIA Triad** is a model designed to guide policies for information security within an organization:
+* **Confidentiality:** Ensuring data is accessible only to those authorized to have access.
+* **Integrity:** Ensuring that data is accurate and unchanged from its source.
+* **Availability:** Ensuring that systems and data are ready for use when needed.
+
+
+
+### AAA Framework
+The **AAA Framework** provides a structure for managing access control:
+* **Authentication:** Verifying the user is who they claim to be.
+* **Authorization:** Granting the user the correct level of access/permissions.
+* **Accounting:** Keeping a record of what the user did while they had access.
+
+
+
+### Governance in Cybersecurity
+Governance refers to the set of responsibilities and practices exercised by the board and executive management with the goal of providing strategic direction. In cybersecurity roles, governance ensures that security activities align with business risks and legal requirements, providing an audit trail for accountability.
+
+---
+
+## Reflection
+Governance is just as important as technical skill because it provides the "rules of the road" for how technology is used. While a technical skill allows me to set up a GitHub repository, governance (in the form of the AAA framework) determines who has the permission to push code and how that access is logged. Without these frameworks, technical security would be disorganized and difficult to verify. The cybersecurity domain that aligns most with today’s material is **GRC (Governance, Risk, and Compliance)**. This lab specifically highlights the "Compliance" and "Accounting" aspects of maintaining a professional technical workbench.
+
+---
+
+## References
+Whitman, M. E., & Mattord, H. J. (2021). *Principles of information security* (7th ed.). Cengage Learning.
+
+
