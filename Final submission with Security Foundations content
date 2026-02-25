@@ -1,40 +1,36 @@
-# Foundations Lab Final: The Professional Identity & Workbench
+Foundations Lab Final: The Professional Identity & Workbench
+Author: Trey Petgrave
 
-**Author:** Trey Petgrave
-**Date:** February 24, 2026  
-**Course:** Cybersecurity Foundations  
+Date: February 24, 2026
 
----
+Course: Cybersecurity Foundations
 
-## Security Foundations: Governance & Frameworks
+Security Philosophy: Lab Mapping & The CIA Triad
+My security philosophy for this project is built upon the CIA Triad, which I have mapped to this specific lab environment:
 
-### CIA Triad
-The **CIA Triad** is a model designed to guide policies for information security within an organization:
-* **Confidentiality:** Ensuring data is accessible only to those authorized to have access.
-* **Integrity:** Ensuring that data is accurate and unchanged from its source.
-* **Availability:** Ensuring that systems and data are ready for use when needed.
+Confidentiality: I have implemented this by setting my GitHub repository to Private. This ensures that only authorized individuals (myself and my instructor) can view the contents of my workbench.
 
+Integrity: I am using Git Version Control to maintain the integrity of my work. Each commit provides a unique hash and timestamp, ensuring that my documentation remains accurate and that any changes are tracked and verified.
 
+Availability: By pushing my local iMac files to GitHub’s cloud-based platform, I ensure that my work is available even if I experience a local hardware failure. This redundancy guarantees access to my technical deliverables whenever needed.
 
-### AAA Framework
-The **AAA Framework** provides a structure for managing access control:
-* **Authentication:** Verifying the user is who they claim to be.
-* **Authorization:** Granting the user the correct level of access/permissions.
-* **Accounting:** Keeping a record of what the user did while they had access.
+Security Foundations: Governance & Frameworks
+AAA Framework
+The AAA Framework manages how I interact with this technical environment:
 
+Authentication: Verifying my identity through my GitHub username and Personal Access Token (PAT).
 
+Authorization: The specific permissions granted to my account to "write" and modify this repository.
 
-### Governance in Cybersecurity
-Governance refers to the set of responsibilities and practices exercised by the board and executive management with the goal of providing strategic direction. In cybersecurity roles, governance ensures that security activities align with business risks and legal requirements, providing an audit trail for accountability.
+Accounting: The use of Git logs to record every update I make, creating a professional audit trail.
 
----
+Governance in Cybersecurity
+Governance represents the rules and oversight that align technical work with business goals. In cybersecurity, governance ensures that technical teams follow established frameworks (like NIST or CIS) to remain compliant with laws and regulations. It provides the "Security Blueprint" that guides every technical decision I make.
 
-## Reflection
-Governance is just as important as technical skill because it provides the "rules of the road" for how technology is used. While a technical skill allows me to set up a GitHub repository, governance (in the form of the AAA framework) determines who has the permission to push code and how that access is logged. Without these frameworks, technical security would be disorganized and difficult to verify. The cybersecurity domain that aligns most with today’s material is **GRC (Governance, Risk, and Compliance)**. This lab specifically highlights the "Compliance" and "Accounting" aspects of maintaining a professional technical workbench.
+Reflection
+Governance is just as important as technical skill because it provides the "why" and "how" for security. While a technical skill allows me to create a repository, governance ensures that the repository is auditable, secure, and compliant with professional standards. Without these frameworks, technical security would be disorganized and difficult to verify. The cybersecurity domain that aligns most with today’s material is GRC (Governance, Risk, and Compliance). This lab specifically highlights the "Compliance" and "Accounting" aspects of maintaining a professional technical workbench.
 
----
+References
+Center for Internet Security. (2021). CIS Critical Security Controls version 8. https://www.cisecurity.org/controls/v8
 
-## References
-Whitman, M. E., & Mattord, H. J. (2021). *Principles of information security* (7th ed.). Cengage Learning.
-
-
+National Institute of Standards and Technology. (2024). The NIST Cybersecurity Framework (CSF) 2.0. https://doi.org/10.6028/NIST.CSWP.29
