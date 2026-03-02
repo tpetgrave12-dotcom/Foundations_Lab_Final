@@ -6,9 +6,9 @@ Date: February 24, 2026
 Course: Cybersecurity Foundations
 
 Security Philosophy: Lab Mapping & The CIA Triad
-My security philosophy for this project is built upon the CIA Triad, which I have mapped to this specific lab environment:
+My security philosophy for this project is built upon the CIA Triad (Center for Internet Security [CIS], 2023), which I have mapped to this specific lab environment:
 
-Confidentiality: Virtualization isolation via UTM keeps the Host and Guest environments separate.
+Confidentiality: Virtualization isolation via UTM keeps the Host and Guest environments separate (Scarfone et al., 2011).
 
 Integrity: The lab_verify.sh script provides a verifiable audit of the workbench standards.
 
@@ -25,12 +25,12 @@ Authorization: The specific permissions granted to my account to "write" and mod
 Accounting: The use of Git logs to record every update I make, creating a professional audit trail.
 
 Governance in Cybersecurity
-Governance represents the rules and oversight that align technical work with business goals. In cybersecurity, governance ensures that technical teams follow established frameworks (like NIST or CIS) to remain compliant with laws and regulations. It provides the "Security Blueprint" that guides every technical decision I make.
+Governance represents the rules and oversight that align technical work with business goals. In cybersecurity, governance ensures that technical teams follow established frameworks—such as those provided by NIST—to remain compliant with laws and regulations (Scarfone et al., 2011). It provides the "Security Blueprint" that guides every technical decision I make.
 
 Reflection
 Governance is just as important as technical skill because it provides the "why" and "how" for security. While a technical skill allows me to create a repository, governance ensures that the repository is auditable, secure, and compliant with professional standards. Without these frameworks, technical security would be disorganized and difficult to verify. The cybersecurity domain that aligns most with today’s material is GRC (Governance, Risk, and Compliance). This lab specifically highlights the "Compliance" and "Accounting" aspects of maintaining a professional technical workbench.
 
 References
-Scarfone, K., Souppaya, M., & Hoffman, P. (2011). Guide to security for full virtualization technologies (Special Publication 800-125). National Institute of Standards and Technology.
-
 Center for Internet Security. (2023). The CIA triad and its importance in cybersecurity. CIS.
+
+Scarfone, K., Souppaya, M., & Hoffman, P. (2011). Guide to security for full virtualization technologies (Special Publication 800-125). National Institute of Standards and Technology.
