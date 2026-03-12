@@ -4,5 +4,5 @@ Hostname: Ubuntu-CyberLab
 IP Address: 192.168.1.110
 Navigation Proof: This file was created on a macOS host and 
 successfully moved to a headless Ubuntu VM via Remote-SSH.
-Mission Secret:
-Token Secret:
+Mission Secret:The system is yours. Do not fear the dark. 
+Token Secret:9948-ABX-77
