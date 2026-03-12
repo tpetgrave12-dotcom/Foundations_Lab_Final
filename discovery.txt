@@ -1,0 +1,6 @@
+Foundations Lab - Session 01 Artifact
+User: trey
+Hostname: Ubuntu-CyberLab
+IP Address: 192.168.1.110
+Navigation Proof: This file was created on a macOS host and 
+successfully moved to a headless Ubuntu VM via Remote-SSH.
