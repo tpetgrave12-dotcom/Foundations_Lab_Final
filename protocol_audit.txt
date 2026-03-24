@@ -1,2 +1,2 @@
 Google Real IP: 142.250.190.238
-Hidden Service Header: [NAME]
+Hidden Service Header: python3
