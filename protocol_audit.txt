@@ -1,11 +1,2 @@
-Operation Grid Lock: Success
-Interface: enp0s8
-Subnet Restored: 10.50.50.150/24
-Gateway Verified: 10.50.50.1
-PING 10.50.50.1 (10.50.50.1) 56(84) bytes of data.
-64 bytes from 10.50.50.1: icmp_seq=1 ttl=64 time=0.048 ms
-64 bytes from 10.50.50.1: icmp_seq=2 ttl=64 time=0.051 ms
-
---- 10.50.50.1 ping statistics ---
-2 packets transmitted, 2 received, 0% packet loss, time 1056ms
-rtt min/avg/max/mdev = 0.048/0.049/0.051/0.001 ms
+Google Real IP: [Put the Dig IP here]
+Hidden Service Header: [Put the Server name from curl here]
