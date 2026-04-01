@@ -8,7 +8,7 @@ echo "[*] Initiating Container Deployment..."
 
 # INSTRUCTION: Write the exact Docker command below to run the nginx image in detached mode,
 # name it "training-web", and map port 8080 on the host to port 80 on the container.
-# YOUR COMMAND HERE:
+# YOUR COMMAND HERE:docker run -d --name training-web -p 8888:80 nginx
 
 
 echo "[+] Deployment command executed."
