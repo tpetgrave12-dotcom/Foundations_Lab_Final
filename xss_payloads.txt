@@ -14,4 +14,4 @@ Answer: Because it is **Reflected**. The script is only in the current URL/reque
 3. CROSS-SITE REQUEST FORGERY (CSRF)
 * Malicious URL Crafted: [http://127.0.0.1:8081/transfer?to=Attacker&amount=5000]
 * Concept: What is the primary defense against CSRF?
-Answer:H andshake" code that the hacker can't guess, which proves the request actually came from the real user.
+Answer: Anti-CSRF Tokens that the hacker can't guess, which proves the request actually came from the real user.
