@@ -1,0 +1,20 @@
+SESSION 16: READINESS INVENTORY
+=================================================
+Operator: TREY
+Date: April 14, 2026
+
+Confidence Audit (Yes/No):
+1. Nmap (Network Scanning): [Yes]
+2. Docker (Containerization): [Yes]
+3. Linux Hardening (UFW/chmod): [Yes]
+4. VS Code Remote-SSH: [Yes]
+
+Identify your weakest area and your plan to review it:
+[Weakest Area]: Port Conflict resolution (Layer 4).
+[Review Plan]: Practice using 'ss -tlnp' to identify non-docker processes
+that might be squatting on standard ports (like 80 or 8080).
+
+Sabotage 1 Result: FIXED (chmod 755 broken_script.sh)
+Sabotage 2 Result: FIXED (Stopped Nginx service squatting on port 8080)
+Sabotage 3 Result: VERIFIED (Ping 8.8.8.8 successful - Connection open)
+=================================================
