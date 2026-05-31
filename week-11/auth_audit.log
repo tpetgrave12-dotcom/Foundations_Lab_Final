@@ -1,0 +1,31 @@
+#!/bin/bash
+# TA PROVISIONING: S06 - PROTOCOL INTERROGATION
+# Logic: Poison /etc/hosts and cloak Nginx on Port 8080.
+
+if [[ $EUID -ne 0 ]]; then echo "[-] Error: Run with sudo"; exit 1; fi
+
+TARGET_USER=${SUDO_USER:-$USER}
+USER_HOME=$(eval echo ~$TARGET_USER)
+
+# 1. Poison local DNS
+if ! grep -q "google.com" /etc/hosts; then
+    echo "127.0.0.1  google.com" >> /etc/hosts
+fi
+
+# 2. Move Nginx to Port 8080
+apt-get update && apt-get install -y nginx > /dev/null
+sed -i 's/listen 80 default_server;/listen 8080 default_server;/g' /etc/nginx/sites-available/default
+sed -i 's/listen \[::\]:80 default_server;/listen \[::\]:8080 default_server;/g' /etc/nginx/sites-available/default
+systemctl restart nginx
+
+# 3. Seed Mission Briefing
+mkdir -p "$USER_HOME/portfolio/session_06"
+cat << EOF > "$USER_HOME/portfolio/session_06/briefing.txt"
+MISSION INTEL:
+- Local DNS is reporting anomalies.
+- A service is 'cloaked' on a non-standard port.
+- Find the truth and report in protocol_audit.txt.
+EOF
+
+chown -R $TARGET_USER:$TARGET_USER "$USER_HOME/portfolio"
+echo "[+] S06 Provisioning Complete. Deception layers active."

