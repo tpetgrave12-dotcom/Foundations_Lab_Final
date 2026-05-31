@@ -1,9 +1,0 @@
-<Sysmon schemaversion="4.50">
-  <EventFiltering>
-    <RuleGroup name="Ransomware Detection Plan" groupPolicy="include">
-      <ProcessCreate onmatch="include">
-        <CommandLine condition="contains">delete shadows</CommandLine>
-      </ProcessCreate>
-    </RuleGroup>
-  </EventFiltering>
-</Sysmon>
